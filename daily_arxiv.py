@@ -128,8 +128,9 @@ def get_daily_papers(topic,query="slam", max_results=2):
         # Papers will be listed without code links
         content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
                update_time,paper_title,paper_first_author,paper_key,paper_url)
+        # upstream bug fix: format string has 5 placeholders, needs paper_first_author as 3rd arg
         content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
-               update_time,paper_title,paper_url,paper_url)
+               update_time,paper_title,paper_first_author,paper_url,paper_url)
 
         # structured record (NewsCome: all fields the original script discarded)
         content_struct[paper_key] = {
