@@ -92,6 +92,7 @@ def get_daily_papers(topic,query="slam", max_results=2):
     # output
     content = dict()
     content_to_web = dict()
+    content_struct = dict()  # structured records for machine consumption (NewsCome)
     search_engine = arxiv.Search(
         query = query,
         max_results = max_results,
@@ -126,7 +127,21 @@ def get_daily_papers(topic,query="slam", max_results=2):
         content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
                update_time,paper_title,paper_first_author,paper_key,paper_url)
         content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
-               update_time,paper_title,paper_first_author,paper_url,paper_url)
+               update_time,paper_title,paper_url,paper_url)
+
+        # structured record (NewsCome: all fields the original script discarded)
+        content_struct[paper_key] = {
+            "id": paper_key,
+            "topic": topic,
+            "title": paper_title,
+            "url": paper_url,
+            "abstract": paper_abstract,
+            "authors": paper_authors,
+            "first_author": str(paper_first_author),
+            "primary_category": primary_category,
+            "published": str(publish_time),
+            "updated": str(update_time),
+        }
 
         # TODO: select useful comments
         comments = None
@@ -137,7 +152,8 @@ def get_daily_papers(topic,query="slam", max_results=2):
 
     data = {topic:content}
     data_web = {topic:content_to_web}
-    return data,data_web
+    data_struct = {topic:content_struct}
+    return data, data_web, data_struct
 
 def update_paper_links(filename):
     '''
@@ -226,7 +242,7 @@ def json_to_md(filename,md_filename,
         math_start,math_end = match.span()
         space_trail = space_leading = ''
         if s[:math_start][-1] != ' ' and '*' != s[:math_start][-1]: space_trail = ' '
-        if s[math_end:][0] != ' ' and '*' != s[math_end:][0]: space_leading = ' '
+        if s[math_end:][0] != ' ' and s[math_end:][0] != '*': space_leading = ' '
         ret += s[:math_start]
         ret += f'{space_trail}${match.group()[1:-1].strip()}${space_leading}'
         ret += s[math_end:]
@@ -318,16 +334,16 @@ def json_to_md(filename,md_filename,
                      f"contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
             f.write((f"[contributors-url]: https://github.com/Vincentqyw/"
                      f"cv-arxiv-daily/graphs/contributors\n"))
-            f.write((f"[forks-shield]: https://img.shields.io/github/forks/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
+            f.write((f"[forks-shield]: https://img.shields.io/github/forks/"
+                     f"Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
             f.write((f"[forks-url]: https://github.com/Vincentqyw/"
                      f"cv-arxiv-daily/network/members\n"))
-            f.write((f"[stars-shield]: https://img.shields.io/github/stars/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
+            f.write((f"[stars-shield]: https://img.shields.io/github/stars/"
+                     f"Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
             f.write((f"[stars-url]: https://github.com/Vincentqyw/"
                      f"cv-arxiv-daily/stargazers\n"))
-            f.write((f"[issues-shield]: https://img.shields.io/github/issues/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
+            f.write((f"[issues-shield]: https://img.shields.io/github/issues/"
+                     f"Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
             f.write((f"[issues-url]: https://github.com/Vincentqyw/"
                      f"cv-arxiv-daily/issues\n\n"))
 
@@ -337,6 +353,7 @@ def demo(**config):
     # TODO: use config
     data_collector = []
     data_collector_web= []
+    data_collector_struct = []  # structured records (NewsCome)
 
     keywords = config['kv']
     max_results = config['max_results']
@@ -351,10 +368,11 @@ def demo(**config):
         logging.info(f"GET daily papers begin")
         for topic, keyword in keywords.items():
             logging.info(f"Keyword: {topic}")
-            data, data_web = get_daily_papers(topic, query = keyword,
+            data, data_web, data_struct = get_daily_papers(topic, query = keyword,
                                             max_results = max_results)
             data_collector.append(data)
             data_collector_web.append(data_web)
+            data_collector_struct.append(data_struct)
             print("\n")
         logging.info(f"GET daily papers end")
 
@@ -396,6 +414,15 @@ def demo(**config):
             update_json_file(json_file, data_collector_web)
         json_to_md(json_file, md_file, task ='Update Wechat', \
             to_web=False, use_title= False, show_badge = show_badge)
+
+    # 4. structured JSON for downstream machine consumption (NewsCome plugin)
+    if config['update_paper_links'] == False:
+        struct_file = './docs/papers-structured.json'
+        if not os.path.exists(struct_file):
+            with open(struct_file, "w") as f:
+                f.write("")
+        update_json_file(struct_file, data_collector_struct)
+        logging.info(f'Update structured JSON -> {struct_file}')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
