@@ -1,14 +1,14 @@
-# TODO: add papers by configuration file
+# Fork of Vincentqyw/cv-arxiv-daily, customized as NewsCome arXiv pipeline
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
-user_name: "Vincentqyw"
-repo_name: "cv-arxiv-daily"
+user_name: "SulleyZhou"
+repo_name: "arxiv-daily-pipeline"
 show_authors: True
 show_links: True
-show_badge: True
-max_results: 10
+show_badge: False
+max_results: 25
 
 publish_readme: True
-publish_gitpage: True
+publish_gitpage: False
 publish_wechat: False
 
 # file paths
@@ -20,20 +20,13 @@ md_readme_path: 'README.md'
 md_gitpage_path: './docs/index.md'
 md_wechat_path: './docs/wechat.md'
 
-# keywords to search
+# keywords to search (arXiv queries are English)
 keywords:
-    "SLAM": 
-        filters: ["SLAM", "Visual Odometry"]
-    "SFM":
-        filters: ["SFM", "Structure from Motion"]
-    "Visual Localization":
-        filters: ["Visual Localization","Camera Localization",
-                  "Camera Re-localisation","Loop Closure Detection",
-                  "visual place recognition","image retrieval"]
-    "Keypoint Detection":
-        filters: ["Keypoint Detection", "Feature Descriptor"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
-    "NeRF":
-        filters: ["NeRF"]
+    "LLM":
+        filters: ["Large Language Model", "LLM"]
+    "Agent":
+        filters: ["LLM Agent", "AI Agent", "Autonomous Agent", "Multi-Agent System"]
+    "Multimodal":
+        filters: ["Multimodal", "Multi-modal", "Vision-Language Model"]
+    "RAG":
+        filters: ["Retrieval-Augmented Generation", "RAG"]
