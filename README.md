@@ -1,4 +1,4 @@
-## Updated on 2026.10.27
+## Updated on 2026.10.28
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -1441,7 +1441,7 @@
 |**2021-10-03**|**Quadrotor Control on $SU(2)\times R^3$ with SLAM Integration**|Marcus Greiff et.al.|[2110.01099](http://arxiv.org/abs/2110.01099)|null|
 |**2021-10-02**|**Online Incremental Non-Gaussian Inference for SLAM Using Normalizing Flows**|Qiangqiang Huang et.al.|[2110.00876](http://arxiv.org/abs/2110.00876)|**[link](https://github.com/marineroboticsgroup/nf-isam)**|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## SFM
 
@@ -2492,7 +2492,7 @@
 |**2021-08-29**|**Solving Viewing Graph Optimization for Simultaneous Position and Rotation Registration**|Seyed-Mahdi Nasiri et.al.|[2108.12876](http://arxiv.org/abs/2108.12876)|null|
 |**2021-08-23**|**Burst Imaging for Light-Constrained Structure-From-Motion**|Ahalya Ravendran et.al.|[2108.09895](http://arxiv.org/abs/2108.09895)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## Visual Localization
 
@@ -5510,7 +5510,7 @@
 |**2021-09-09**|**CrowdDriven: A New Challenging Dataset for Outdoor Visual Localization**|Ara Jafarzadeh et.al.|[2109.04527](http://arxiv.org/abs/2109.04527)|null|
 |**2021-09-09**|**Keeping an Eye on Things: Deep Learned Features for Long-Term Visual Localization**|Mona Gridseth et.al.|[2109.04041](http://arxiv.org/abs/2109.04041)|**[link](https://github.com/utiasasrl/deep_learned_visual_features)**|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## Keypoint Detection
 
@@ -6073,7 +6073,7 @@
 |**2021-08-31**|**A Novel Dataset for Keypoint Detection of quadruped Animals from Images**|Prianka Banik et.al.|[2108.13958](http://arxiv.org/abs/2108.13958)|**[link](https://github.com/prinik/awa-pose)**|
 |**2021-08-27**|**A Matching Algorithm based on Image Attribute Transfer and Local Features for Underwater Acoustic and Optical Images**|Xiaoteng Zhou et.al.|[2108.12151](http://arxiv.org/abs/2108.12151)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## Image Matching
 
@@ -7466,7 +7466,7 @@
 |**2021-08-27**|**Matching Underwater Sonar Images by the Learned Descriptor Based on Style Transfer Method**|Xiaoteng Zhou et.al.|[2108.12072](http://arxiv.org/abs/2108.12072)|null|
 |**2021-08-26**|**Efficient Joint Object Matching via Linear Programming**|Antonio De Rosa et.al.|[2108.11911](http://arxiv.org/abs/2108.11911)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## NeRF
 
@@ -9369,12 +9369,37 @@
 |**2022-07-29**|**Neural Density-Distance Fields**|Itsuki Ueda et.al.|[2207.14455](http://arxiv.org/abs/2207.14455)|**[link](https://github.com/ueda0319/neddf)**|
 |**2022-07-27**|**Is Attention All NeRF Needs?**|Mukund Varma T et.al.|[2207.13298](http://arxiv.org/abs/2207.13298)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## LLM
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-27**|**GEPA-Curator: Curated Learning for Self Improving Agents**|Zack Yu et.al.|[2610.37651](http://arxiv.org/abs/2610.37651)|null|
+|**2026-10-27**|**Can LLMs Uncover Hidden Physical Laws through Free Exploration?**|Zhen Yang et.al.|[2610.37649](http://arxiv.org/abs/2610.37649)|null|
+|**2026-10-27**|**Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis**|Andrew Szot et.al.|[2610.37648](http://arxiv.org/abs/2610.37648)|null|
+|**2026-10-27**|**MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control**|Athanasios Glentis et.al.|[2610.37647](http://arxiv.org/abs/2610.37647)|null|
+|**2026-10-27**|**Multi-State Linear Attention with Generalized Second-Order Routing**|Hee Seung Hwang et.al.|[2610.37645](http://arxiv.org/abs/2610.37645)|null|
+|**2026-10-27**|**Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions**|Anouar Imel et.al.|[2610.37624](http://arxiv.org/abs/2610.37624)|null|
+|**2026-10-27**|**VideoLVR: Latent Visual Reasoning over Grounded Video Evidence**|Shilong Li et.al.|[2610.37613](http://arxiv.org/abs/2610.37613)|null|
+|**2026-10-27**|**As the Story Unfolds: Watching a Film and Identifying Characters as a Human Does**|Zhongrui Gui et.al.|[2610.37579](http://arxiv.org/abs/2610.37579)|null|
+|**2026-10-27**|**LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation**|Nesta Midavaine et.al.|[2610.37570](http://arxiv.org/abs/2610.37570)|null|
+|**2026-10-27**|**Boundary Plateau Laws II**|Camillo De Lellis et.al.|[2610.37560](http://arxiv.org/abs/2610.37560)|null|
+|**2026-10-27**|**Orthogonal and Parametrized Multi-Attribute Steering of LLMs**|Remy Ogasawara et.al.|[2610.37517](http://arxiv.org/abs/2610.37517)|null|
+|**2026-10-27**|**Teach reality, not ethics: a drop-in continued-pretraining corpus installs coupled human-biosphere-AI welfare dispositions across model families**|Trent R. Northen et.al.|[2610.37484](http://arxiv.org/abs/2610.37484)|null|
+|**2026-10-27**|**Follow the Gradient: Tracing Safety Degradation Back to Training Data**|Saket Reddy et.al.|[2610.37481](http://arxiv.org/abs/2610.37481)|null|
+|**2026-10-27**|**PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions**|Tongkun Guan et.al.|[2610.37471](http://arxiv.org/abs/2610.37471)|null|
+|**2026-10-27**|**Concordat: Typed Sessions for LLM Agents**|Milad Sikaroudi et.al.|[2610.37461](http://arxiv.org/abs/2610.37461)|null|
+|**2026-10-27**|**Interpretable Meta-Policies for Neural Decision Making**|Raban Emunds et.al.|[2610.37451](http://arxiv.org/abs/2610.37451)|null|
+|**2026-10-27**|**ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents**|Xinying Qian et.al.|[2610.37443](http://arxiv.org/abs/2610.37443)|null|
+|**2026-10-27**|**FeatureArc: Benchmarking Coding Agents on Evolving Features**|Yunlong Wang et.al.|[2610.37434](http://arxiv.org/abs/2610.37434)|null|
+|**2026-10-27**|**Request-Adaptive Execution for Efficient Hybrid LLM Inference**|Fahao Chen et.al.|[2610.37432](http://arxiv.org/abs/2610.37432)|null|
+|**2026-10-27**|**When Visual Evidence Is Insufficient: How Instructions, Post-Training, and Internal Activations Shape Refusal in Multimodal Language Models**|Ananth K Suresh et.al.|[2610.37430](http://arxiv.org/abs/2610.37430)|null|
+|**2026-10-27**|**Bayes-Adaptive MDPs for Rollout Allocation to Enhance GRPO Training**|Faeze Moradi Kalarde et.al.|[2610.37429](http://arxiv.org/abs/2610.37429)|null|
+|**2026-10-27**|**The Envelope Layer: An Underestimated Surface of LLM Agent Defense**|Yuelin Han et.al.|[2610.37415](http://arxiv.org/abs/2610.37415)|null|
+|**2026-10-27**|**Clearing the FoG: Training KG Agents to Retrieve the Evidence Behind Their Answers**|Zongyuan Sun et.al.|[2610.37405](http://arxiv.org/abs/2610.37405)|null|
+|**2026-10-27**|**Same Verdict, Different Readers: Personalizing Fact-Checking Explanations from Relative Preferences**|Haokun Wen et.al.|[2610.37380](http://arxiv.org/abs/2610.37380)|null|
+|**2026-10-27**|**Uncovering Why LLMs Fail: From Internal Mechanisms to Adversarial Reasoning Trajectories**|Zirui Ding et.al.|[2610.37369](http://arxiv.org/abs/2610.37369)|null|
 |**2026-10-26**|**Patient-specific rubric-based evaluation of large language models across longitudinal cancer care**|Wei-Wei Zhang et.al.|[2610.35847](http://arxiv.org/abs/2610.35847)|null|
 |**2026-10-26**|**Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR**|Yuchen Zhang et.al.|[2610.35846](http://arxiv.org/abs/2610.35846)|null|
 |**2026-10-26**|**ACARE: Agent-Context-Aware Reranker for Iterative Search**|Sahel Sharifymoghaddam et.al.|[2610.35840](http://arxiv.org/abs/2610.35840)|null|
@@ -10151,12 +10176,37 @@
 |**2026-09-09**|**The Answer Path and the Grounding Instruction in LLM Question Answering over Knowledge Graphs**|Arquimedes Canedo et.al.|[2609.10237](http://arxiv.org/abs/2609.10237)|null|
 |**2026-09-09**|**$Φ$ -Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?**|Leilei Ding et.al.|[2609.10226](http://arxiv.org/abs/2609.10226)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## Agent
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-27**|**Can LLMs Uncover Hidden Physical Laws through Free Exploration?**|Zhen Yang et.al.|[2610.37649](http://arxiv.org/abs/2610.37649)|null|
+|**2026-10-27**|**TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information**|Chanwoo Park et.al.|[2610.37571](http://arxiv.org/abs/2610.37571)|null|
+|**2026-10-27**|**Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents**|Pranjal Aggarwal et.al.|[2610.37567](http://arxiv.org/abs/2610.37567)|null|
+|**2026-10-27**|**Concordat: Typed Sessions for LLM Agents**|Milad Sikaroudi et.al.|[2610.37461](http://arxiv.org/abs/2610.37461)|null|
+|**2026-10-27**|**The Envelope Layer: An Underestimated Surface of LLM Agent Defense**|Yuelin Han et.al.|[2610.37415](http://arxiv.org/abs/2610.37415)|null|
+|**2026-10-27**|**Clearing the FoG: Training KG Agents to Retrieve the Evidence Behind Their Answers**|Zongyuan Sun et.al.|[2610.37405](http://arxiv.org/abs/2610.37405)|null|
+|**2026-10-27**|**Aligning Institutional Power and Operational Ability**|Andrea Marino et.al.|[2610.37342](http://arxiv.org/abs/2610.37342)|null|
+|**2026-10-27**|**Mind the Intent Gap: A Methodology for Collaborative Agent-Driven Software Engineering**|Nicolas Tacheny et.al.|[2610.37340](http://arxiv.org/abs/2610.37340)|null|
+|**2026-10-27**|**AnalogScout: Simulation-Efficient PVT-Aware Analog Sizing with LLM Agents**|Yichen Long et.al.|[2610.37319](http://arxiv.org/abs/2610.37319)|null|
+|**2026-10-27**|**BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications**|Islem Bouzenia et.al.|[2610.37283](http://arxiv.org/abs/2610.37283)|null|
+|**2026-10-27**|**Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation**|Saiful Khan et.al.|[2610.37242](http://arxiv.org/abs/2610.37242)|null|
+|**2026-10-27**|**AutoRSE: Evaluating LLM Agents as Recommendation Engineers for Self-Evolving Recommender Systems**|Rui Tian et.al.|[2610.37228](http://arxiv.org/abs/2610.37228)|null|
+|**2026-10-27**|**OpenGray: a benchmark for evaluating the decisions of radiotherapy planning agents**|Humza Nusrat et.al.|[2610.37081](http://arxiv.org/abs/2610.37081)|null|
+|**2026-10-27**|**Blindfold: Keeping the Audit Coin Secret from LLM Agents**|Wei Zhu et.al.|[2610.37055](http://arxiv.org/abs/2610.37055)|null|
+|**2026-10-27**|**A Serious-Game Testbed for Self-Governing Human-Machine Institutions**|Callum Berger et.al.|[2610.36989](http://arxiv.org/abs/2610.36989)|null|
+|**2026-10-27**|**AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations**|Qiming Shi et.al.|[2610.36980](http://arxiv.org/abs/2610.36980)|null|
+|**2026-10-27**|**Proactive Memory for Event-Driven LLM Agents**|Jinyang Li et.al.|[2610.36967](http://arxiv.org/abs/2610.36967)|null|
+|**2026-10-27**|**TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces**|Mingyu Zhang et.al.|[2610.36918](http://arxiv.org/abs/2610.36918)|null|
+|**2026-10-27**|**ASNER: Software Architecture Recovery with Adaptive Semantic Neighborhoods and Evidence-Grounded Refinement**|Wenhao Wang et.al.|[2610.36894](http://arxiv.org/abs/2610.36894)|null|
+|**2026-10-27**|**When the Critic Falls Behind: Co-Evolving Rubrics and Harnesses for Continual Agent Self-Improvement**|Hao Chen et.al.|[2610.36826](http://arxiv.org/abs/2610.36826)|null|
+|**2026-10-27**|**Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems**|Yipeng Hao et.al.|[2610.36652](http://arxiv.org/abs/2610.36652)|null|
+|**2026-10-27**|**Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord**|Kofi Ampomah et.al.|[2610.36626](http://arxiv.org/abs/2610.36626)|null|
+|**2026-10-27**|**Benchmarking LLM Agents for Behaviorally Adequate Test Generation from Software Requirements**|Binhang Qi et.al.|[2610.36584](http://arxiv.org/abs/2610.36584)|null|
+|**2026-10-27**|**NextEval: An Agent-Based Solver and Benchmark for Derivative-Free Optimization**|Shuo Chen et.al.|[2610.36553](http://arxiv.org/abs/2610.36553)|null|
+|**2026-10-27**|**From Ripple to Boundary: Deterministic Impact Boundaries for LLM-Based Software Evolution**|Jiameng Bai et.al.|[2610.36549](http://arxiv.org/abs/2610.36549)|null|
 |**2026-10-26**|**I-HITL: Inalienable Human-in-the-Loop**|Samuel Breckenridge et.al.|[2610.35835](http://arxiv.org/abs/2610.35835)|null|
 |**2026-10-26**|**Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models**|Amine Lbath et.al.|[2610.35829](http://arxiv.org/abs/2610.35829)|null|
 |**2026-10-26**|**A Unified Arena for LLM Agents across Diverse Eurogame**|Fengrui Zhang et.al.|[2610.35773](http://arxiv.org/abs/2610.35773)|null|
@@ -10928,12 +10978,37 @@
 |**2026-09-08**|**HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects**|Kaushik Chandana et.al.|[2609.09519](http://arxiv.org/abs/2609.09519)|null|
 |**2026-09-08**|**ContractEval: Query-Conditioned Execution Matching for Procedural Instruction Conformance**|Praphul Singh et.al.|[2609.09458](http://arxiv.org/abs/2609.09458)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## Multimodal
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-27**|**Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?**|Jialv Zou et.al.|[2610.37662](http://arxiv.org/abs/2610.37662)|null|
+|**2026-10-27**|**Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video**|Tudor Braicu et.al.|[2610.37619](http://arxiv.org/abs/2610.37619)|null|
+|**2026-10-27**|**VideoLVR: Latent Visual Reasoning over Grounded Video Evidence**|Shilong Li et.al.|[2610.37613](http://arxiv.org/abs/2610.37613)|null|
+|**2026-10-27**|**Zero-Shot Multimodal Event Spotting in Soccer Broadcasts**|Sadia Kamal et.al.|[2610.37583](http://arxiv.org/abs/2610.37583)|null|
+|**2026-10-27**|**As the Story Unfolds: Watching a Film and Identifying Characters as a Human Does**|Zhongrui Gui et.al.|[2610.37579](http://arxiv.org/abs/2610.37579)|null|
+|**2026-10-27**|**Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use**|Baptiste Bonin et.al.|[2610.37533](http://arxiv.org/abs/2610.37533)|null|
+|**2026-10-27**|**World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer**|Guoning Wu et.al.|[2610.37518](http://arxiv.org/abs/2610.37518)|null|
+|**2026-10-27**|**PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions**|Tongkun Guan et.al.|[2610.37471](http://arxiv.org/abs/2610.37471)|null|
+|**2026-10-27**|**When Visual Evidence Is Insufficient: How Instructions, Post-Training, and Internal Activations Shape Refusal in Multimodal Language Models**|Ananth K Suresh et.al.|[2610.37430](http://arxiv.org/abs/2610.37430)|null|
+|**2026-10-27**|**Time-Dynamic Semantic-Activity Entanglement: Quantifying Communication-Based Synchrony in Collaborative VR**|Pooja Pol et.al.|[2610.37427](http://arxiv.org/abs/2610.37427)|null|
+|**2026-10-27**|**Beyond the Readout: A Latent Numerical Frame Shared Across Modality and Operation**|Oriol Juan Sabater et.al.|[2610.37422](http://arxiv.org/abs/2610.37422)|null|
+|**2026-10-27**|**Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation**|Zhenye Yang et.al.|[2610.37409](http://arxiv.org/abs/2610.37409)|null|
+|**2026-10-27**|**EmbeddingGemma 2: Unified and Efficient Multimodal Representations**|Henrique Schechter Vera et.al.|[2610.37364](http://arxiv.org/abs/2610.37364)|null|
+|**2026-10-27**|**Generalizable Target-Less Joint Intrinsic-Extrinsic Camera-LiDAR Calibration using Deep Pixel-Point Correspondences**|Simon Bultmann et.al.|[2610.37350](http://arxiv.org/abs/2610.37350)|null|
+|**2026-10-27**|**TimeLineXR: An Interactive Exploration of Time in Vision-Language Models**|Nidham Tekaya et.al.|[2610.37349](http://arxiv.org/abs/2610.37349)|null|
+|**2026-10-27**|**CodeCap-Bench: Can Code Serve as a Good Video Caption?**|Jiafu Tang et.al.|[2610.37341](http://arxiv.org/abs/2610.37341)|null|
+|**2026-10-27**|**Global Analysis of Nuclear Parton Distribution Functions using Markov Chain Monte Carlo**|Nasim Derakhshanian et.al.|[2610.37254](http://arxiv.org/abs/2610.37254)|null|
+|**2026-10-27**|**Peers4U: Designing Learner-Centered Virtual Peers for Children's Multimodal Mathematics Learning**|Zhi Zheng et.al.|[2610.37238](http://arxiv.org/abs/2610.37238)|null|
+|**2026-10-27**|**Vision-Language-Action or World-Action? Just Action Models**|Yonghao Yu et.al.|[2610.37219](http://arxiv.org/abs/2610.37219)|null|
+|**2026-10-27**|**Zhengrong-Spatial-Aware 1.0: Advancing 3D Multimodal Intelligence**|Yu Zhang et.al.|[2610.37216](http://arxiv.org/abs/2610.37216)|null|
+|**2026-10-27**|**Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse**|Jiafeng Liang et.al.|[2610.37211](http://arxiv.org/abs/2610.37211)|null|
+|**2026-10-27**|**3D-SceneQ: Empowering 3D LLM With Query-Guided Adaptive Pruning and Multi-Modal Feature Enhancement**|Yongqi Shan et.al.|[2610.37202](http://arxiv.org/abs/2610.37202)|null|
+|**2026-10-27**|**VGIQA: Fine-Grained Image Quality Assessment with Visual Grounding Rewards**|Weichang Wang et.al.|[2610.37186](http://arxiv.org/abs/2610.37186)|null|
+|**2026-10-27**|**Rènyi-Regularized Flow-Based Variational Inference for Bayesian Calibration**|Exaucè Luweh Adjim Ngarti et.al.|[2610.37169](http://arxiv.org/abs/2610.37169)|null|
+|**2026-10-27**|**FastBEVFusion: Simple Multi-Modal Fusion for 3D Object Detection at 50 FPS**|Tom Sanitz et.al.|[2610.37153](http://arxiv.org/abs/2610.37153)|null|
 |**2026-10-26**|**VibeVideoBench:Evaluating Multimodal Agents on Code-Driven Video Generation**|Muxi Diao et.al.|[2610.35864](http://arxiv.org/abs/2610.35864)|null|
 |**2026-10-26**|**MedVTok: A General-Purpose Medical Visual Tokenizer**|Chenglong Ma et.al.|[2610.35842](http://arxiv.org/abs/2610.35842)|null|
 |**2026-10-26**|**Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy**|Yifei Yao et.al.|[2610.35832](http://arxiv.org/abs/2610.35832)|null|
@@ -11710,15 +11785,27 @@
 |**2026-09-09**|**Apparent Zero-Momentum Signals from Magnon--Magnon Interference in Near-Field Spin-Wave Imaging**|Julien Berthomier et.al.|[2609.09922](http://arxiv.org/abs/2609.09922)|null|
 |**2026-09-09**|**CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids**|Toomas Tahves et.al.|[2609.09881](http://arxiv.org/abs/2609.09881)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
 ## RAG
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-10-27**|**When Is Additional Retrieval Worthwhile? A Cost-Aware Study of Evidence Gain and Answer Reliability in RAG**|Zhouting Zhao et.al.|[2610.37358](http://arxiv.org/abs/2610.37358)|null|
+|**2026-10-27**|**Tessera: Structure-Completed Evidence Units for Web Retrieval-Augmented Generation**|Peichun Hua et.al.|[2610.37080](http://arxiv.org/abs/2610.37080)|null|
+|**2026-10-27**|**p-DCIM: A 28nm Probabilistic SRAM DCIM based Ising Machine for Near-Memory Context Selection in LLM-RAG Pipeline**|Madhav Vadlamani et.al.|[2610.37033](http://arxiv.org/abs/2610.37033)|null|
+|**2026-10-27**|**SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation**|Zafer Sahinoglu et.al.|[2610.36991](http://arxiv.org/abs/2610.36991)|null|
+|**2026-10-27**|**Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG**|Parv Khatri et.al.|[2610.36915](http://arxiv.org/abs/2610.36915)|null|
+|**2026-10-27**|**RAG-CSI: Global Local Retrieval via Joint State and Dynamics Matching for CSI Prediction**|Xinyue Jiang et.al.|[2610.36881](http://arxiv.org/abs/2610.36881)|null|
+|**2026-10-27**|**Back to the Future: The Evolving Universal Relation Model**|Nan Tang et.al.|[2610.36833](http://arxiv.org/abs/2610.36833)|null|
+|**2026-10-27**|**Governed Sovereign RAG for Public Administration: Tripartite Epistemic Routing, Facet-Guided Clarification, and Deterministic Numeric Verification in Citizen Services**|Andres Cruz Degante et.al.|[2610.36561](http://arxiv.org/abs/2610.36561)|null|
+|**2026-10-27**|**QESChunker: A Single Objective Unifies Overlapping and Non-Overlapping Chunking for RAG**|Yifan Zhao et.al.|[2610.36557](http://arxiv.org/abs/2610.36557)|null|
+|**2026-10-27**|**RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG**|Zekai Chen et.al.|[2610.36444](http://arxiv.org/abs/2610.36444)|null|
+|**2026-10-27**|**LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction**|Xianxiang Zhao et.al.|[2610.36433](http://arxiv.org/abs/2610.36433)|null|
+|**2026-10-26**|**OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning**|Hui Yang et.al.|[2610.36335](http://arxiv.org/abs/2610.36335)|null|
 |**2026-10-26**|**Offline Language-Based Support System for Tactical Decision-Making in Air Combat Operations**|Joao P. A. Dantas et.al.|[2610.35635](http://arxiv.org/abs/2610.35635)|null|
 |**2026-10-26**|**ArchiveLens: A Generative Spatial Knowledge Framework for Semantic Reconstruction of Historical Maps**|Yanan Wu et.al.|[2610.35606](http://arxiv.org/abs/2610.35606)|null|
-|**2026-10-26**|**Hypergraph-Enhanced Evidence Selection for Long-Context Multimodal Document QA**|Wenxin Zhao et.al.|[2610.35542](http://arxiv.org/abs/2610.35542)|null|
+|**2026-10-27**|**Hypergraph-Enhanced Evidence Selection for Long-Context Multimodal Document QA**|Wenxin Zhao et.al.|[2610.35542](http://arxiv.org/abs/2610.35542)|null|
 |**2026-10-26**|**Read the Route: Attention-Steered Hypergraph Retrieval for Multi-hop RAG**|Jiate Liu et.al.|[2610.35412](http://arxiv.org/abs/2610.35412)|null|
 |**2026-10-26**|**Autonomous Structural Discovery Of Bioprocess Dynamics And Kinetics Via LLM-Driven Agents**|Erdal Aydin et.al.|[2610.35391](http://arxiv.org/abs/2610.35391)|null|
 |**2026-10-26**|**Reading Beyond OCR Noise: Robust Cross-Lingual RAG for Legislative Archives**|Radha Krishna Deshpande et.al.|[2610.35240](http://arxiv.org/abs/2610.35240)|null|
@@ -12125,5 +12212,5 @@
 |**2026-09-07**|**Noēsis: Deterministic-First Retrieval with Two-Tier Context Hydration for Factuality-Critical Queries on Small Local Models**|Nicola Cogotti et.al.|[2609.07663](http://arxiv.org/abs/2609.07663)|null|
 |**2026-09-07**|**RefVerifier: Semi-Automated Reference Claim Verification for Scientific Manuscripts**|Stefania Mocan et.al.|[2609.07652](http://arxiv.org/abs/2609.07652)|null|
 
-<p align=right>(<a href=#updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
 
